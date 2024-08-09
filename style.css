@@ -164,11 +164,11 @@ html{
     height: auto;
 }
 .portfolio .galeria .proyecto #img3 {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
 }
 .portfolio .galeria .proyecto #img4 {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
 }
 .portfolio .galeria .proyecto p{
@@ -176,10 +176,73 @@ html{
     line-height: 22px;
     margin-bottom: 20px;
 }
+.portfolio .galeria .proyecto a{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: inline-block;
+}
 .portfolio .galeria .proyecto .overlay{
     margin: 20px;
     padding: 10px;
 }
 .portfolio .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
+}
+/* Seccion github */
+.github{
+    background-color: #252A2E;
+    color: #fff;
+    padding:50px 20px;
+}
+.github .contenido-seccion{
+    max-width: 1100px;
+    margin:auto;
+}
+.github .contenido-seccion p{
+    font: 22px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.github .contenido-seccion a{
+    font: 22px;
+    line-height: 20px;
+    color: #fff;
+    display: inline-block;
+}
+/* Seccion Skills*/
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50PX 20PX;
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin:auto;
+}
+.skills h2{
+    font-size: 40px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.skills .contenido-seccion .contenedor-skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skills .contenido-seccion .contenedor-skills .skill{
+    width: 160px;
+    height: 65px;
+    background-color: #49545d;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills .contenido-seccion .contenedor-skills .skill:hover{
+    background-color: #1cb698;
 }
