@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <!-- Menu de Encabezado -->
     <div class="contenedor-header">
         <header>
@@ -39,6 +40,7 @@
             <h2>Data Scientist</h2>
         </div>
     </section>
+
     <!-- Seccion about me-->
     <section id="aboutme" class="aboutme">
         <div class="contenido-seccion">
@@ -49,5 +51,68 @@
             <p>When I'm not analyzing data or developing projects, I love playing videogames, watching a good movie or serie, but what I enjoy most is being with my family.</p>
         </div>
     </section>
+
+    <!-- Seccion Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Projects</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Finalized.jpg" alt="imagen" id="img1">
+                    <div class="overlay">
+                        <h3>Bootcamp final project</h3>
+                        <p>The objective is to forecast the customer cancellation rate of the Interconnect company. This way, if a use plans to leave, they will be offered special plan options.
+
+                        In order to accomplish the task, Interconnect's marketing team has collected some of its customers' personal data, including information about their plans and contracts.
+                            
+                        For this project it has been established that the key metric is AUC-ROC.</p>
+                        <a href="https://github.com/JuanAntonioRe/Proyecto_Final">Visit the repository at GitHub</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/identifiacion_facial.jpg" alt="imagen" id="img2">
+                    <div class="overlay">
+                        <h3>Artificial Vision</h3>
+                        <p>Supermarket chain Good Seed would like to explore whether data science can help it comply with alcohol laws by ensuring it does not sell alcohol to underage people.</p>
+
+                        <p>
+                            <ul>
+                                <li>Stores are equipped with cameras in the checkout area, which are activated when a person is purchasing alcohol.</li>
+                                <li>Computer vision methods can be used to determine a person's age from a photo.</li>
+                            </ul>
+                        </p>
+
+                        <p>The task, then, is to build and evaluate a model to verify the age of people. The project trains a model that is capable of predicting the age of a person through an image. It has been requested that the MAE have a value less than 8.</p>
+                        <a href="https://github.com/JuanAntonioRe/Vision_artificial">Visit the repository at GitHub</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/taxi.jpg" alt="imagen" id="img3">
+                    <div class="overlay">
+                        <h3>Time series</h3>
+                        <p>A Taxi company called Sweet Lift has collected historical data on taxi orders at airports. To attract more drivers during peak hours, you need to predict the number of taxi orders for the next hour.
+
+                        The RECM metric on the test set should not be greater than 48.
+                            
+                        The data must be resampled so that each data point of the original data falls within one-hour intervals.</p>
+                        <a href="https://github.com/JuanAntonioRe/SerieTemporal">Visit the repository at GitHub</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/precio_carro.jpg" alt="imagen" id="img4">
+                    <div class="overlay">
+                        <h3>Car price</h3>
+                        <p>Rusty Bargain is a second-hand car sales service that is developing an app to attract new customers. Thanks to this app, you can quickly find out the market value of your car.
+
+                        The dataset has information on technical specifications, equipment versions, prices, among other data.
+                    
+                        For this project, gradient descent and gradient boosting algorithms are used.</p>
+                        <a href="https://github.com/JuanAntonioRe/Precio_de_carro">Visit the repository at GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
