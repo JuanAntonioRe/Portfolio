@@ -18,13 +18,13 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Home</a></li>
-                    <li><a href="#aboutme">About me</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#skills">Technologies & Skills</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">About me</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Projects</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Technologies & Skills</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -213,5 +213,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
